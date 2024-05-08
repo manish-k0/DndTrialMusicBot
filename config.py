@@ -46,8 +46,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", 033527cd1c4d40159c48e25bd700bc4d)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", 55eeef4831f54d568344b06429ef181a)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "033527cd1c4d40159c48e25bd700bc4d")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "55eeef4831f54d568344b06429ef181a")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
